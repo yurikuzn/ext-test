@@ -1,12 +1,12 @@
 {
-    "name": "espocrm/ext-{@nameHyphen}",
+    "name": "espocrm/ext-test",
     "require": {
         "php": ">=8.3"
     },
     "autoload-dev": {
         "psr-4": {
-            "Espo\\Modules\\{@name}\\": "src/files/custom/Espo/Modules/{@name}",
-            "tests\\unit\\Espo\\Modules\\{@name}\\": "tests/unit/Espo/Modules/{@name}"
+            "Espo\\Modules\\Test\\": "src/files/custom/Espo/Modules/Test",
+            "tests\\unit\\Espo\\Modules\\Test\\": "tests/unit/Espo/Modules/Test"
         }
     },
     "require-dev": {
