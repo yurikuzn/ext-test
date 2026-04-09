@@ -29,6 +29,7 @@ jobs:
         php-versions: ['8.5']
 
     steps:
+    - uses: actions/checkout@v2
     
     - name: Checkout site
       uses: actions/checkout@v4
